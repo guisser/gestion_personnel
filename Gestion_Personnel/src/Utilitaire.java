@@ -6,7 +6,7 @@ public class Utilitaire {
 	static {
 	try { 
 	   Class.forName("com.mysql.jdbc.Driver");
-	   String url = "jdbc:mysql://localhost:3306/gestion_personnel";
+	   String url = "jdbc:mysql://localhost:3306/gestion_personnels";
 	    conn = DriverManager.getConnection(url, "root","");
 	    }
 	catch(Exception e){ 
